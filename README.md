@@ -1,1 +1,1 @@
-# Hasekll-tree
+# Haskell-tree
