@@ -33,7 +33,9 @@ postorder Nil = []
 postorder (Node root left right) = postorder left ++ postorder right ++ [root]
 
 ------------------------ Traversal ends ------------------------
+------------------------ Tree height ------------------------
 -- | get a Tree and return its height
 height :: Tree a -> Int
 height Nil = 0
 height (Node root left right) = 1 + max (height left) (height right)
+------------------------ Tree height ends ------------------------
